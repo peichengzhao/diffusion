@@ -20,7 +20,7 @@ class AutoAttack():
         self.verbose = verbose
         self.attacks_to_run = attacks_to_run
         self.version = version
-        self.is_tf_model = is_tf_model
+        self.is_tf_model = is_tf_model #是否是tensorFlow模型
         self.device = device
         self.logger = Logger(log_path)
 

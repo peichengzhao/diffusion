@@ -1,5 +1,6 @@
 import torch
-from scipy.stats import norm, binom_test
+from scipy.stats import norm
+from scipy.stats import binomtest
 import numpy as np
 from math import ceil
 from statsmodels.stats.proportion import proportion_confint
